@@ -1,0 +1,47 @@
+.cerate-template-div-form {
+    display: flex;
+}
+.selectDrop {
+    padding: 1vh 3vh;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+    margin: 0.5vw 10vh;
+}
+.SUBMIT {
+    height: 4vh;
+    width: 10vw;
+    /* position: absolute; */
+    /* margin-top: 20vh; */
+}
+.toolBox {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    width: 15vw;
+    align-items: center;
+    background-color: rgb(196, 219, 240);
+    height: 100vh;
+}
+.toolBox ul li {
+    color: black;
+    font-size: large;
+    cursor: pointer;
+    padding: 1vh;
+}
+.tempForm label span, .input-text-field-form label span{
+    color: black ;
+    font-size:x-large;
+}
+.tempForm label input, .input-text-field-form label input{
+    padding: 0.5vw;
+    font-size: large;
+    width: 20vw;
+    margin-bottom: 2vh;
+}
+.tempForm {
+    width: 85vw;
+    padding:  10vh 10vw;
+    margin-left: auto;
+}

@@ -1,0 +1,45 @@
+.listDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellowgreen;
+    font-size: large;
+    font-weight: bolder;
+    margin: 20px;
+    width: 20vw;
+    border: 2px solid skyblue;
+    cursor: pointer;
+}
+.Xbtn {
+
+    position:relative;
+    background-color:yellowgreen;
+    border: 0;
+    float: right;
+    padding: 5px 15px;
+    margin: 1vh 2vh;
+    border-radius: 25px;
+}
+.container2 {
+    position:absolute;
+    z-index: -1;
+    display: flex;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 24vw;
+    height: 39vh;
+}
+.conItem{
+    font-size: larger;
+    font-weight: bold;
+    padding: 1vh 3vh;
+    border-radius: 20vh;
+    border: 0.5vh solid rgb(0, 183, 255);
+    margin: 0.5vh
+}
+.listDiv:hover {
+    color: white;
+    background-color: yellowgreen;
+}

@@ -1,0 +1,43 @@
+
+.HeaderNav{
+    display: flex;
+    background-color: rgb(0, 181, 253);
+    align-items: center;
+    padding: 1vh 1vh;
+}
+
+.HeaderNav span{
+    color: white;
+    font-weight: bolder;
+    font-size: 4vh;
+    padding: 1vh 2vh;
+}
+.create-btn {
+    cursor: pointer;
+    background-color: white;
+    border: 0;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: greenyellow;
+    border-radius: 25vh;
+    padding: 0.5vh 5vh;
+    float: right;
+    margin-left: auto;
+}
+.HeaderNav span:hover {
+    color: greenyellow;
+}
+.form_container, .form_box {
+    display: flex;
+    padding: 10vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_box label{
+    margin: 1vh;
+}
+.create-btn:hover {
+    background-color: greenyellow;
+    color: white;
+}

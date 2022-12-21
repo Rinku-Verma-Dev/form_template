@@ -1,0 +1,39 @@
+.dropDown-field-form{
+    background-color: #C4E538;
+    padding: 2vh 3vh;
+    display: flex;
+    border-radius: 2vh;
+    flex-direction: column;
+    margin: 2vh;
+}
+.dropDown-field-form input {
+    border: 0;
+}
+.close {
+    margin-left: auto;
+    width: 3vh;
+    color: black;
+    font-weight: bolder;
+}
+.save {
+    padding: 0.5vh 3vh;
+    float: right;
+    color: black;
+    font-weight: bolder;
+}
+.close:hover {
+    background-color: red;
+    color: white;
+} 
+.btn {
+    border: 0;
+    padding: 0.6vh 1.8vh;
+    color: black;
+    font-size: 2vh;
+    margin: 2vh;
+    font-weight: bolder;
+    border-radius: 20vh;
+}
+.btn:hover {
+    background-color: rgb(197, 189, 189);
+}

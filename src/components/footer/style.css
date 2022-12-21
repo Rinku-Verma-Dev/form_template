@@ -1,0 +1,54 @@
+.footer {
+    background-color: #1289A7;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 9vh;
+    width: 100vw;
+}
+.preview-form-div {
+    position: relative;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2vh;
+    height: 80vh;
+}
+.label{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.labelDrop{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 5vh;
+}
+.input{
+    width: 20vw;
+    flex-wrap:wrap;
+    padding: 0.5vh;
+    font-size: x-large;
+    color: black;
+    margin: 0.6vw;
+    margin-left: 5vh;
+    margin-right: 20vh;
+}
+.Xbtn {
+    float: right;
+    padding: 0.6vh 1.4vh;
+    border-radius: 20vh;
+    font-weight: bolder;
+    font-size: larger;
+}
+.Xbtn:hover {
+    background-color: red;
+    color: white;
+}
+.footer button {
+    padding: 1vh 10vh;
+    color: #000;
+    font-weight: bolder;
+    margin: 2vh;
+}
